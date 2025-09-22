@@ -34,8 +34,8 @@ project-root/
    ```
 
 3. Uygulamaya erişim:
-   - [http://localhost:8080/](http://localhost:8080/) → **Home frontend**
-   - [http://localhost:8080/cart](http://localhost:8080/cart) → **Cart frontend**
+   - [http://localhost:3000//](http://localhost:3000/) → **Home frontend**
+   - [http://localhost:3000/cart](http://localhost:3000/cart) → **Cart frontend**
 
 ---
 
