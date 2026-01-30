@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-   images: {
+  // basePath: '/' yerine hiç basePath tanımlamayın (home için)
+  images: {
     domains: ['fakestoreapi.com'],
   },
   reactStrictMode: true,
-  experimental: { appDir: true },
-  rewrites: async () => [
-    { source: '/cart/:path*', destination: 'http://localhost:3001/cart/:path*' }
-  ]
+  // experimental: { appDir: true } satırını kaldırın
 }
+
 module.exports = nextConfig
